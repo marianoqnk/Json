@@ -1,12 +1,16 @@
 ﻿
 //Mucho OJO aquí, como hace las importación automática llama a la clase rootobject en todos los casos por lo que puede hacer 
 //confilcto si hay varias importaciones
+//Este fichero lo he generado poniendo la dirección de la página en el navegador
+// https://jsonplaceholder.typicode.com/users/ copiamos el contenido con Crt+c
+// y luego usamos Editar/Pegado especial/Pegar JSON como clase
+
 public class Rootobjectk
 {
-    public EstrucutaJSONb[] Property1 { get; set; }
+    public User2[] Property1 { get; set; }
 }
 
-public class EstrucutaJSONb
+public class User2
 {
     public int id { get; set; }
     public string name { get; set; }
@@ -39,3 +43,6 @@ public class Company
     public string catchPhrase { get; set; }
     public string bs { get; set; }
 }
+
+
+
